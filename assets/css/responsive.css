@@ -1,0 +1,1040 @@
+/* for small size mobile */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* ==============================================
+                      fonts css start
+    ============================================== */
+    .wave-bold-24x {
+        font-size: 20px;
+        line-height: 30px;
+ 
+    }
+    .pragraph-16x {
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+
+    .matt-45x {
+        font-size: 28px;
+        line-height: 38px;
+
+    }
+
+    /* ==============================================
+                      fonts css end
+    ============================================== */
+    /* ==============================================
+                      navbar css start
+    ============================================== */
+    .navbar {
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar .bar {
+        color: #E81F2D;
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand img {
+        width: 140px;
+        height: 40px;
+    }
+
+    .navbar-toggler {
+        padding: 8px 10px 8px 10px;
+
+        line-height: 0;
+
+        border: 1px solid white;
+        transition: .4s;
+    }
+
+    .navbar-toggler:hover {
+        background: #fff;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+
+        box-shadow: none;
+    }
+
+    .navbar button {
+        outline: 0 !important;
+    }
+
+    .navbar ul {
+        background: rgba(242, 242, 242, .8);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+    }
+
+    .navbar ul li {
+        margin-bottom: 5px;
+    }
+
+    .btn_danger_brd {
+        margin: auto;
+        width: 150px;
+        padding: 10px 35px;
+    }
+
+    /* ==============================================
+                      navbar css end
+    ============================================== */
+    /* ==============================================
+                      banner css start
+    ============================================== */
+    #test1-banner .overlay {
+
+        padding-top: 250px;
+    }
+
+    #test1-banner .overlay .texts h1 {
+        font-family: 'Mattone';
+        font-size: 28px;
+        line-height: 30px;
+        width: 246px;
+
+    }
+
+    #test1-banner .overlay .texts h2 {
+        font-size: 18px;
+        line-height: 24px;
+        width: auto;
+    }
+
+    #test1-banner .overlay .texts p {
+        width: auto;
+    }
+  
+
+    .main-banner::after {
+        width: 713px;
+        height: 750px;
+        right: -290px;
+    }
+
+    #test1-banner .overlay .banner-bottom img {
+        height: 25px;
+    }
+
+    .main-banner::before {
+
+        display: none;
+    }
+/* -----------==============for testing2 banner start=========-------- */
+.testing2-ban{
+    height: 650px !important;
+}
+
+#test1-banner .main-banner2::after {
+	width: 1050px;
+	height: 856px;
+	right: -564px;
+}
+#test1-banner .ovarlay2 {
+	padding-top: 240px !important;
+}
+#test1-banner .testing2-h1 {
+	font-size: 26px !important;
+    line-height: 36px !important;
+    margin-bottom: 40px;
+}
+#test1-banner .testing2-banner-pra {
+	width: auto !important;
+}
+
+/* -----------==============for testing2 banner end=========-------- */
+    /* ==============================================
+                      banner css end
+    ============================================== */
+    /* ==============================================
+                      allergen css start
+    ============================================== */
+    #allergens-part {
+        padding-top: 80px;
+        padding-bottom: 60px;
+
+    }
+    .allergen-shape {
+        display: none;
+    }
+    .package .text {
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+   
+    .package .details p {
+        width: auto;
+
+    }
+    .package .details .wd-820 {
+        width: auto;
+    }
+    #allergens-part .bottom-allergens {
+        padding-top: 0;
+    }
+    #allergens-part .bottom-allergens h6 {
+        width: auto;
+    
+    }
+    /* ---------------============ for allergens2 page start================--------- */
+    #allergens-part2 {
+        padding-top: 90px;
+        padding-bottom: 0;
+   
+    }
+    #allergens-part2 .top-p {
+        width: auto;
+    }
+    #allergens-part2 .testing2-list-p1 {
+        width: auto;
+        
+    }
+    #allergens-part2 .testing2-rop-right {
+        padding-left: 0;
+    }
+    #allergens-part2 .testing2-list {
+        padding-top: 80px;
+    }
+    #allergens-part2 .testing2-list-p2 {
+        
+        margin-bottom: 60px;
+    }
+    #allergens-part2 .testing2-allergen-bottom {
+        padding-top: 100px;
+    }
+    #allergens-part2 .testing2-allergen-bottom .bottom-p {
+        width: auto !important;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-422 {
+        width: auto;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 p {
+        width: auto;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .bottom-right {
+        padding-left: 0;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-506 {
+        width: auto;
+    }
+    /* ---------------============ for allergens2 page end================--------- */
+    /* ==============================================
+                      allergen css end
+    ============================================== */
+    /* ==============================================
+                      form css start
+    ============================================== */
+    .form-circle {
+        height: 90px;
+    }
+    #form-part .top {
+        margin-bottom: 80px;
+    }
+    #form-part .top .botm-h2 {
+        width: auto;
+    }
+    #form-part select {
+        width: 100%;
+
+    }
+    #form-part .large-input {
+        width: 100%;
+    }
+    #form-part input {
+        width: 100%;
+     
+    }
+    /* ==============================================
+                      form css end
+    ============================================== */
+    /* ==============================================
+                      footer css start
+    ============================================== */
+    #form-part {
+        padding-top: 80px;
+        padding-bottom: 60px;
+     
+    }
+    #footer-part .container {
+        padding: 0 5px;
+    }
+    #footer-part .footer-top {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  
+    }
+    #footer-part .footer-top .list {
+        flex-direction: column;
+    }
+    #footer-part .footer-top .list .first-ul {
+        margin-right: 0;
+        padding-left: 0;
+       margin-bottom: 0;
+       margin-top: 60px;
+    }
+    #footer-part .footer-top .list ul {
+        padding-left: 0;
+    }
+    #footer-part .footer-top .email a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #footer-part .footer-bottom {
+        text-align: center;
+    }
+    #footer-part .footer-bottom .social  .custom-insta {
+        margin-right: 0;
+    }
+    #footer-part .footer-bottom .copyright span {
+        
+        padding-left: 0;
+    }
+    /* -----------============for testing2 form page start===========----------- */
+    .testing2-form-p {
+        width: auto;
+     
+    }
+    .testing2-form-h5 {
+        margin-bottom: 50px;
+    }
+    /* -----------============for testing2 form page end===========----------- */
+    /* ==============================================
+                      footer css end
+    ============================================== */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* for small landing device size  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* ==============================================
+                      fonts css start
+    ============================================== */
+    .wave-bold-24x {
+        font-size: 20px;
+        line-height: 30px;
+ 
+    }
+ 
+
+
+    .matt-45x {
+        font-size: 28px;
+        line-height: 38px;
+
+    }
+
+    /* ==============================================
+                      fonts css end
+    ============================================== */
+    /* ==============================================
+                      navbar css start
+    ============================================== */
+    .navbar {
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar .bar {
+        color: #E81F2D;
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand img {
+        width: 140px;
+        height: 40px;
+    }
+
+    .navbar-toggler {
+        padding: 8px 10px 8px 10px;
+
+        line-height: 0;
+
+        border: 1px solid white;
+        transition: .4s;
+    }
+
+    .navbar-toggler:hover {
+        background: #fff;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+
+        box-shadow: none;
+    }
+
+    .navbar button {
+        outline: 0 !important;
+    }
+
+    .navbar ul {
+        background: rgba(242, 242, 242, .8);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+    }
+
+    .navbar ul li {
+        margin-bottom: 5px;
+    }
+
+    .btn_danger_brd {
+        margin: auto;
+        width: 150px;
+        padding: 10px 35px;
+    }
+
+    /* ==============================================
+                      navbar css end
+    ============================================== */
+    /* ==============================================
+                      banner css start
+    ============================================== */
+
+
+    #test1-banner .overlay {
+        padding-top: 180px;
+    }
+
+   
+
+  
+
+    #test1-banner .overlay .texts p {
+        width: auto;
+    }
+  
+
+    .main-banner::after {
+        width: 713px;
+        height: 750px;
+        right: -290px;
+    }
+
+    #test1-banner .overlay .banner-bottom img {
+        height: 44px;
+    }
+
+    .main-banner::before {
+
+        display: none;
+    }
+/* -----------==============for testing2 banner start=========-------- */
+.testing2-ban{
+    height: 650px !important;
+}
+#test1-banner .testing2-h1 {
+	font-size: 48px !important;
+    line-height: 60px !important;
+}
+#test1-banner .main-banner2::after {
+	width: 1050px;
+	height: 856px;
+	right: -564px;
+}
+#test1-banner .ovarlay2 {
+	padding-top: 180px !important;
+}
+
+#test1-banner .testing2-banner-pra {
+	width: auto !important;
+}
+
+/* -----------==============for testing2 banner end=========-------- */
+    /* ==============================================
+                      banner css end
+    ============================================== */
+    /* ==============================================
+                      allergen css start
+    ============================================== */
+    #allergens-part {
+        padding-top: 80px;
+        padding-bottom: 60px;
+
+    }
+    .allergen-shape {
+        display: none;
+    }
+    .package .text {
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+   
+    .package .details p {
+        width: auto;
+
+    }
+    .package .details .wd-820 {
+        width: auto;
+    }
+    #allergens-part .bottom-allergens {
+        padding-top: 0;
+    }
+    #allergens-part .bottom-allergens h6 {
+        width: auto;
+    
+    }
+    /* ---------------============ for allergens2 page start================--------- */
+    #allergens-part2 {
+        padding-top: 90px;
+        padding-bottom: 0;
+   
+    }
+    #allergens-part2 .top-p {
+        width: auto;
+    }
+    #allergens-part2 .testing2-list-p1 {
+        width: auto;
+        
+    }
+    #allergens-part2 .testing2-rop-right {
+        padding-left: 0;
+    }
+    #allergens-part2 .testing2-list {
+        padding-top: 80px;
+    }
+    #allergens-part2 .testing2-list-p2 {
+        
+        margin-bottom: 60px;
+    }
+    #allergens-part2 .testing2-allergen-bottom {
+        padding-top: 100px;
+    }
+    #allergens-part2 .testing2-allergen-bottom .bottom-p {
+        width: auto !important;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-422 {
+        width: auto;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 p {
+        width: auto;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .bottom-right {
+        padding-left: 0;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-506 {
+        width: auto;
+    }
+    /* ---------------============ for allergens2 page end================--------- */
+    /* ==============================================
+                      allergen css end
+    ============================================== */
+    /* ==============================================
+                      form css start
+    ============================================== */
+    .form-circle {
+        height: 90px;
+    }
+    #form-part .top {
+        margin-bottom: 80px;
+    }
+    #form-part .top .botm-h2 {
+        width: auto;
+    }
+    #form-part select {
+        width: 100%;
+
+    }
+    #form-part .large-input {
+        width: 100%;
+    }
+    #form-part input {
+        width: 100%;
+     
+    }
+    /* ==============================================
+                      form css end
+    ============================================== */
+    /* ==============================================
+                      footer css start
+    ============================================== */
+    #form-part {
+        padding-top: 80px;
+        padding-bottom: 60px;
+     
+    }
+    #footer-part .container {
+        padding: 0 5px;
+    }
+    #footer-part .footer-top {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  
+    }
+    #footer-part .footer-top .list {
+        flex-direction: column;
+    }
+    #footer-part .footer-top .list .first-ul {
+        margin-right: 0;
+        padding-left: 0;
+       margin-bottom: 0;
+       margin-top: 60px;
+    }
+    #footer-part .footer-top .list ul {
+        padding-left: 0;
+    }
+    #footer-part .footer-top .email a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #footer-part .footer-bottom {
+        text-align: center;
+    }
+    #footer-part .footer-bottom .social  .custom-insta {
+        margin-right: 0;
+    }
+    #footer-part .footer-bottom .copyright span {
+        
+        padding-left: 0;
+    }
+    /* -----------============for testing2 form page start===========----------- */
+    .testing2-form-p {
+        width: auto;
+     
+    }
+    .testing2-form-h5 {
+        margin-bottom: 50px;
+    }
+    /* -----------============for testing2 form page end===========----------- */
+    /* ==============================================
+                      footer css end
+    ============================================== */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Medium devices (tablets, 768px and up */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* ==============================================
+                      fonts css start
+    ============================================== */
+    .wave-bold-24x {
+        font-size: 20px;
+        line-height: 30px;
+ 
+    }
+ 
+
+
+ 
+
+    /* ==============================================
+                      fonts css end
+    ============================================== */
+    /* ==============================================
+                      navbar css start
+    ============================================== */
+    .navbar {
+
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar .bar {
+        color: #E81F2D;
+        font-size: 1.25rem;
+    }
+
+    .navbar-brand img {
+        width: 140px;
+        height: 40px;
+    }
+
+    .navbar-toggler {
+        padding: 8px 10px 8px 10px;
+
+        line-height: 0;
+
+        border: 1px solid white;
+        transition: .4s;
+    }
+
+    .navbar-toggler:hover {
+        background: #fff;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+
+        box-shadow: none;
+    }
+
+    .navbar button {
+        outline: 0 !important;
+    }
+
+    .navbar ul {
+        background: rgba(242, 242, 242, .8);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+    }
+
+    .navbar ul li {
+        margin-bottom: 5px;
+    }
+
+    .btn_danger_brd {
+        margin: auto;
+        width: 150px;
+        padding: 10px 35px;
+    }
+
+    /* ==============================================
+                      navbar css end
+    ============================================== */
+    /* ==============================================
+                      banner css start
+    ============================================== */
+
+
+    #test1-banner .overlay {
+        padding-top: 210px;
+    }
+    .main-banner::after {
+        width: 992px;
+        height: 750px;
+        right: -380px;
+    }
+    #test1-banner .overlay .banner-bottom img {
+        height: 58px;
+    }
+
+    .main-banner::before {
+
+        display: none;
+    }
+/* -----------==============for testing2 banner start=========-------- */
+.testing2-ban{
+    height: 730px !important;
+}
+#test1-banner .testing2-h1 {
+	font-size: 48px !important;
+    line-height: 60px !important;
+}
+#test1-banner .main-banner2::after {
+	width: 1050px;
+	height: 856px;
+	right: -380px;
+}
+#test1-banner .ovarlay2 {
+	padding-top: 210px !important;
+}
+
+#test1-banner .testing2-banner-pra {
+	width: 555px !important;
+}
+
+/* -----------==============for testing2 banner end=========-------- */
+    /* ==============================================
+                      banner css end
+    ============================================== */
+    /* ==============================================
+                      allergen css start
+    ============================================== */
+    #allergens-part {
+        padding-top: 80px;
+        padding-bottom: 60px;
+
+    }
+    .allergen-shape {
+        display: none;
+    }
+    .package .text {
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+   
+    .package .details p {
+        width: auto;
+
+    }
+    .package .details .wd-820 {
+        width: auto;
+    }
+    #allergens-part .bottom-allergens {
+        padding-top: 0;
+    }
+    #allergens-part .bottom-allergens h6 {
+        width: auto;
+    
+    }
+    /* ---------------============ for allergens2 page start================--------- */
+    #allergens-part2 {
+        padding-top: 90px;
+        padding-bottom: 0;
+   
+    }
+    #allergens-part2 .top-p {
+        width: auto;
+    }
+    
+    #allergens-part2 .testing2-rop-right {
+        padding-left: 0;
+    }
+    #allergens-part2 .testing2-list {
+        padding-top: 80px;
+    }
+    #allergens-part2 .testing2-list-p2 {
+        
+        margin-bottom: 60px;
+    }
+    #allergens-part2 .testing2-allergen-bottom {
+        padding-top: 100px;
+    }
+    #allergens-part2 .testing2-allergen-bottom .bottom-p {
+        width: auto !important;
+    }
+   
+   
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .bottom-right {
+        padding-left: 0;
+    }
+  
+    /* ---------------============ for allergens2 page end================--------- */
+    /* ==============================================
+                      allergen css end
+    ============================================== */
+    /* ==============================================
+                      form css start
+    ============================================== */
+    .form-circle {
+        height: 90px;
+    }
+    #form-part .top {
+        margin-bottom: 80px;
+    }
+    #form-part .top .botm-h2 {
+        width: auto;
+    }
+    #form-part select {
+        width: 100%;
+
+    }
+    #form-part .large-input {
+        width: 100%;
+    }
+    #form-part input {
+        width: 100%;
+     
+    }
+    /* ==============================================
+                      form css end
+    ============================================== */
+    /* ==============================================
+                      footer css start
+    ============================================== */
+    #form-part {
+        padding-top: 80px;
+        padding-bottom: 60px;
+     
+    }
+    #footer-part .container {
+        padding: 0 5px;
+    }
+    #footer-part .footer-top {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  
+    }
+    #footer-part .footer-top .list {
+        flex-direction: column;
+    }
+    #footer-part .footer-top .list .first-ul {
+        margin-right: 0;
+        padding-left: 0;
+       margin-bottom: 0;
+       margin-top: 60px;
+    }
+    #footer-part .footer-top .list ul {
+        padding-left: 0;
+    }
+    #footer-part .footer-top .email a {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    #footer-part .footer-bottom {
+        text-align: center;
+    }
+    #footer-part .footer-bottom .social  .custom-insta {
+        margin-right: 0;
+    }
+    #footer-part .footer-bottom .copyright span {
+        
+        padding-left: 0;
+    }
+    /* -----------============for testing2 form page start===========----------- */
+    .testing2-form-p {
+        width: auto;
+     
+    }
+    .testing2-form-h5 {
+        margin-bottom: 50px;
+    }
+    /* -----------============for testing2 form page end===========----------- */
+    /* ==============================================
+                      footer css end
+    ============================================== */
+
+
+}
+
+
+
+
+
+
+
+
+
+ /* Large devices (desktops, 992px and up */
+ @media (min-width: 992px) and (max-width: 1199.98px){
+
+
+    .main-banner::after {
+        width: 992px;
+        height: 750px;
+        right: -194px;
+    }
+    
+    .main-banner::before {
+        right: -194px;
+    }
+    #test1-banner .overlay .banner-bottom img {
+        height: 82px;
+    }
+
+    .allergen-shape {
+        width: 138px;
+        top: 270px;
+    }
+
+    #allergens-part {
+        padding-top: 100px;
+        padding-bottom: 140px;
+    }
+
+    #form-part .large-input {
+        width: 415px;
+    }
+
+    #footer-part .container {
+        padding: 0 0;
+    }
+    #footer-part .footer-top {
+        padding: 0 0;
+        padding-top: 80px;
+        padding-bottom: 60px;
+     
+    }
+    #footer-part .footer-top .email a {
+        font-size: 20px;
+      
+    }
+    #footer-part .footer-top .list .first-ul {
+        margin-right: 70px;
+    }
+    #allergens-part2 .top-p {
+        width: auto;
+    }
+    #allergens-part2 .testing2-rop-right {
+        padding-left: 0;
+    }
+    #allergens-part2 .testing2-list-p2 {
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    #allergens-part2 .testing2-allergen-bottom .bottom-p {
+        width: auto !important;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .bottom-right {
+        padding-left: 0;
+    }
+ }
+
+
+
+
+
+ 
+ /* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399.98px){
+
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-506 {
+        width: auto;
+    }
+    #allergens-part2 .testing2-allergen-bottom .all-packages2 p {
+        width: auto;
+    }
+ }
+
