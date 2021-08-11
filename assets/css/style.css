@@ -30,29 +30,33 @@ p {
 
 }
 
-html,body{
+html,
+body {
 	overflow-x: hidden;
 }
+
 /*==================================================
                  common css end
   ==================================================*/
 /*==================================================
                  fonts css start
   ==================================================*/
-  @font-face{
+@font-face {
 	font-family: 'Avenir-Regular';
 	src: url("../fonts/AvenirLTStd-Book.otf") format("truetype");
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
 }
-  @font-face{
+
+@font-face {
 	font-family: 'Poppins-Light';
 	src: url("../fonts/Poppins-Light.ttf") format("truetype");
 	font-style: normal;
 	font-weight: 300;
 	font-display: swap;
 }
+
 @font-face {
 	font-family: 'Wavehaus-SemiBold';
 	src: url("../fonts/Wavehaus-95SemiBold.otf") format("opentype");
@@ -92,7 +96,7 @@ html,body{
 	font-size: 16px;
 	line-height: 28px;
 	color: #272727;
-	
+
 }
 
 .pragraph-20x {
@@ -102,9 +106,10 @@ html,body{
 	font-size: 20px;
 	line-height: 36px;
 	color: #FFFFFF;
-	
+
 }
-.wave-bold-24x{
+
+.wave-bold-24x {
 	font-family: 'Wavehaus-bold';
 	font-style: normal;
 	font-weight: bold;
@@ -112,7 +117,8 @@ html,body{
 	line-height: 30px;
 	color: #E81F2D;
 }
-.wave-bold-22x{
+
+.wave-bold-22x {
 	font-family: 'Wavehaus-bold';
 	font-style: normal;
 	font-weight: bold;
@@ -120,7 +126,8 @@ html,body{
 	line-height: 28px;
 	color: #FFFFFF;
 }
-.matt-45x{
+
+.matt-45x {
 	font-family: 'Mattone';
 	font-style: normal;
 	font-weight: normal;
@@ -128,6 +135,7 @@ html,body{
 	line-height: 60px;
 	color: #FFFFFF;
 }
+
 /*==================================================
                 fonts css end
   ==================================================*/
@@ -144,8 +152,8 @@ nav {
 	z-index: 9999;
 
 }
+
 .navbar {
-	
 	padding-top: 20px;
 	padding-bottom: 35px;
 	padding-left: 30px;
@@ -286,17 +294,19 @@ nav .dropdown-menu .dropdown-item {
 	content: '';
 	margin-left: auto;
 }
-.main-banner::before{
-      width: 992px;
-	  height: 772px;
+
+.main-banner::before {
+	width: 992px;
+	height: 772px;
 	background: url(../images/banner_aft_2.svg) no-repeat bottom right;
-	  background-size: contain;
-	  position: absolute;
-	  top:  0;
-	  right: 0;
-	  content: '';
-	  z-index: 4;
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: '';
+	z-index: 4;
 }
+
 #test1-banner .overlay {
 	width: 100%;
 	height: 100%;
@@ -335,35 +345,38 @@ nav .dropdown-menu .dropdown-item {
 	margin-bottom: 27px;
 	text-transform: uppercase;
 }
-#test1-banner .overlay .texts p{
+
+#test1-banner .overlay .texts p {
 	width: 680px;
 }
 
 #test1-banner .overlay .banner-bottom {
 	position: absolute;
 	bottom: 0;
-	
-
 }
+
 #test1-banner .overlay .banner-bottom img {
 	height: 112px;
 }
+
 /* ------------------==============for testing2 page html start==============---------------- */
-#test1-banner .main-banner2::after{
+#test1-banner .main-banner2::after {
 	width: 992px;
 	height: 750px;
 	background: url(../images/banner2.png) no-repeat top right !important;
-
 }
-#test1-banner .testing2-h1{
+
+#test1-banner .testing2-h1 {
 	color: #272727 !important;
 	margin-bottom: 60px;
 }
-#test1-banner .testing2-banner-pra{
+
+#test1-banner .testing2-banner-pra {
 	width: 733px !important;
 }
-#test1-banner .ovarlay2{
-       padding-top: 200px !important;
+
+#test1-banner .ovarlay2 {
+	padding-top: 200px !important;
 }
 
 /* ------------------==============for testing2 page html end==============--------------- */
@@ -374,148 +387,180 @@ nav .dropdown-menu .dropdown-item {
 /*==================================================
                allergens banner css start
   ==================================================*/
-  #allergens-part{
-        background: #171717;
-		padding-top: 128px;
-		padding-bottom: 225px;
-		position: relative;
-  }
-  .allergen-shape{
-	  position: absolute;
-	  top: 220px;
-	  right: 0;
-  }
-  #allergens-part h2{
-	  margin-bottom: 80px;
-  }
-  .package {
-	  margin-bottom: 75px;
-  }
-  .package .heading{
-	  display: flex;
-	  margin-bottom: 28px;
-  }
-  .package .dot i {
+#allergens-part {
+	background: #171717;
+	padding-top: 128px;
+	padding-bottom: 225px;
+	position: relative;
+}
+
+.allergen-shape {
+	position: absolute;
+	top: 220px;
+	right: 0;
+}
+
+#allergens-part h2 {
+	margin-bottom: 80px;
+}
+
+.package {
+	margin-bottom: 75px;
+}
+
+.package .heading {
+	display: flex;
+	margin-bottom: 28px;
+}
+
+.package .dot i {
 	color: #E81F2D;
 	font-size: 19px;
 	padding-top: 6px;
 }
-  .package .text{
-	  margin-left: 40px;
-	  text-transform: uppercase;
-  }
-  .package .text h5{
-	  letter-spacing: 5px;
-  }
-  .package .details p{
-	  width: 860px;
-	  color: #FFFFFF;
-  }
-  .package .details .wd-820{
-	  width: 820px;
-	  
-  }
-  .package .details .package-underline{
-	  display: inline-block;
-	  color: #E81F2D;
-	  text-decoration: underline;
-  }
-  #allergens-part .bottom-allergens{
-	  padding-top: 60px;
-  }
-  #allergens-part .bottom-allergens h6{
-	  width: 808px;
-	  margin-bottom: 60px;
-  }
-  .package2{
-	  display: flex;
-	  margin-bottom: 40px;
-  }
-  .package2 .square i {
+
+.package .text {
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+
+.package .text h5 {
+	letter-spacing: 5px;
+}
+
+.package .details p {
+	width: 860px;
+	color: #FFFFFF;
+}
+
+.package .details .wd-820 {
+	width: 820px;
+
+}
+
+.package .details .package-underline {
+	display: inline-block;
+	color: #E81F2D;
+	text-decoration: underline;
+}
+
+#allergens-part .bottom-allergens {
+	padding-top: 60px;
+}
+
+#allergens-part .bottom-allergens h6 {
+	width: 808px;
+	margin-bottom: 60px;
+}
+
+.package2 {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.package2 .square i {
 	color: #E81F2D;
 	font-size: 10px;
 	margin-right: 10px;
 	padding-top: 13px;
 }
+
 /* -------------------=============for testing2 page start================----------- */
-#allergens-part2{
+#allergens-part2 {
 	background: #171717;
 	padding-top: 128px;
 	padding-bottom: 100px;
 	position: relative;
 }
-#allergens-part2 .top-p{
+
+#allergens-part2 .top-p {
 	width: 1105px;
 }
-#allergens-part2 .testing2-list{
+
+#allergens-part2 .testing2-list {
 	padding-top: 130px;
 }
-#allergens-part2 .testing2-list-p1{
+
+#allergens-part2 .testing2-list-p1 {
 	width: 580px;
 	margin-bottom: 90px;
-	
+
 }
-#allergens-part2 .testing2-rop-right{
+
+#allergens-part2 .testing2-rop-right {
 	padding-left: 100px;
 }
+
 #allergens-part2 .testing2-list-p2 {
 	width: 250px;
 	margin-bottom: 128px;
 }
-#allergens-part2 .testing2-allergen-bottom{
+
+#allergens-part2 .testing2-allergen-bottom {
 	padding-top: 145px;
 }
-#allergens-part2 .testing2-allergen-bottom h2{
+
+#allergens-part2 .testing2-allergen-bottom h2 {
 	margin-bottom: 100px;
 }
-#allergens-part2 .testing2-allergen-bottom .bottom-p{
+
+#allergens-part2 .testing2-allergen-bottom .bottom-p {
 	width: 1140px !important;
 }
-#allergens-part2 .testing2-allergen-bottom .bottom-p span{
-  display: inline-block;
-  padding-top: 40px;
-  width: 100px;
+
+#allergens-part2 .testing2-allergen-bottom .bottom-p span {
+	display: inline-block;
+	padding-top: 40px;
+	width: 100px;
 }
-#allergens-part2 .testing2-allergen-bottom .all-packages2{
+
+#allergens-part2 .testing2-allergen-bottom .all-packages2 {
 	margin-top: 70px;
 }
+
 #allergens-part2 .testing2-allergen-bottom .all-packages2 p {
 	width: 549px;
 }
-#allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-422{
+
+#allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-422 {
 	width: 422px;
 }
-#allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-506{
+
+#allergens-part2 .testing2-allergen-bottom .all-packages2 .wd-506 {
 	width: 506px;
 }
-#allergens-part2 .testing2-allergen-bottom .all-packages2 .bottom-right{
+
+#allergens-part2 .testing2-allergen-bottom .all-packages2 .bottom-right {
 	padding-left: 100px;
 }
+
 /* -------------------=============for testing2 page end================----------- */
 /*==================================================
                allergens banner css end
   ==================================================*/
-  /*==================================================
+/*==================================================
               form css start
   ==================================================*/
-  #form-part{
-	  background: #f2f2f2;
-	  padding-top: 105px;
-	  padding-bottom: 124px;
-	  position: relative;
-  } 
-  .form-circle{
-	  position: absolute;
-	  top: 0;
-	  right: 0;
-	  height: 130px;
-	}
-  #form-part .top{
-	  margin-bottom: 120px;
-  } 
-  
+#form-part {
+	background: #f2f2f2;
+	padding-top: 105px;
+	padding-bottom: 124px;
+	position: relative;
+}
 
-  #form-part .top h2{
+.form-circle {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 130px;
+}
+
+#form-part .top {
+	margin-bottom: 120px;
+}
+
+
+#form-part .top h2 {
 	font-family: 'Wavehaus-bold';
 	font-style: normal;
 	font-weight: bold;
@@ -525,22 +570,27 @@ nav .dropdown-menu .dropdown-item {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 
-  }
-  #form-part .top h2 a{
-	  color: #E81F2D;
-	  text-decoration: underline !important;
-  }
-  #form-part .top h2 a:hover{
+}
+
+#form-part .top h2 a {
 	color: #E81F2D;
-  }
-  #form-part .top .botm-h2{
-	  margin-top: 40px;
-	  width: 940px;
-  }
-  #form-part .top-form{
-	  margin-bottom: 25px;
-  }
-  #form-part h3{
+	text-decoration: underline !important;
+}
+
+#form-part .top h2 a:hover {
+	color: #E81F2D;
+}
+
+#form-part .top .botm-h2 {
+	margin-top: 40px;
+	width: 940px;
+}
+
+#form-part .top-form {
+	margin-bottom: 25px;
+}
+
+#form-part h3 {
 	font-family: 'Wavehaus-bold';
 	font-style: normal;
 	font-weight: bold;
@@ -548,16 +598,19 @@ nav .dropdown-menu .dropdown-item {
 	line-height: 30px;
 	color: #E81F2D;
 	margin-bottom: 30px;
-  }
-  #form-part .form-group{
-	  margin-bottom: 30px;
-  }
-  #form-part .captcha a {
+}
+
+#form-part .form-group {
+	margin-bottom: 30px;
+}
+
+#form-part .captcha a {
 	display: inline-block;
 	margin-top: 40px;
 	margin-bottom: 14px;
 }
-  #form-part label{
+
+#form-part label {
 	font-family: 'Wavehaus-SemiBold';
 	font-style: normal;
 	font-weight: 600;
@@ -565,11 +618,13 @@ nav .dropdown-menu .dropdown-item {
 	line-height: 24px;
 	color: #959595;
 	margin-bottom: 15px;
-  }
-  #form-part .form-select{
-	  background-color: transparent;
-  }
-  #form-part select{
+}
+
+#form-part .form-select {
+	background-color: transparent;
+}
+
+#form-part select {
 	border: 0.7px solid #7A7A7A;
 	box-sizing: border-box;
 	border-radius: 10px;
@@ -577,28 +632,32 @@ nav .dropdown-menu .dropdown-item {
 	padding: 14px 19px;
 
 
-  }
-  #form-part option{
-	  background-color: #f2f2f2;
-	  
-  }
-  #form-part input{
+}
+
+#form-part option {
+	background-color: #f2f2f2;
+
+}
+
+#form-part input {
 	border: 0.7px solid #7A7A7A;
 	box-sizing: border-box;
 	border-radius: 10px;
 	width: 415px;
-    background: transparent;
+	background: transparent;
 	font-family: 'Avenir-Regular' !important;
 	font-weight: 400;
 	font-size: 14px;
 	font-weight: 24px;
 	color: #3C4858;
 	padding: 14px 19px;
-  }
-  #form-part .large-input{
-	  width: 517px;
-  }
-  #form-part button{
+}
+
+#form-part .large-input {
+	width: 517px;
+}
+
+#form-part button {
 	background: #E81F2D;
 	border-radius: 100px;
 	font-family: 'Wavehaus-SemiBold';
@@ -610,52 +669,59 @@ nav .dropdown-menu .dropdown-item {
 	text-transform: uppercase;
 	padding: 15px 55px;
 
-  }
-  .form-select:focus {
+}
+
+.form-select:focus {
 	box-shadow: none;
 }
-  .form-control:focus {
-    box-shadow: none;
+
+.form-control:focus {
+	box-shadow: none;
 }
+
 .form-control:focus label {
 	color: red !important;
 }
+
 /* -----------==============for testing2 page start================--------- */
-.testing2-form-h5{
+.testing2-form-h5 {
 	color: #272727 !important;
 	margin-bottom: 70px;
-	
+
 }
-.testing2-form-p{
- width: 840px;
- color: #434343 !important;
+
+.testing2-form-p {
+	width: 840px;
+	color: #434343 !important;
 }
+
 /* -----------==============for testing2 page end================--------- */
-  /*==================================================
+/*==================================================
               form css end
   ==================================================*/
-
 /*==================================================
               footer css start
   ==================================================*/
-  
-  #footer-part .container{
-	  padding: 0 45px;
-  }
-  #footer-part .footer-top{
-	  padding: 0 45px;
-	  padding-top: 80px;
-	  padding-bottom: 60px;
-	  background: #141414;
-  }
 
-#footer-part .footer-top .list{
+#footer-part .container {
+	padding: 0 45px;
+}
+
+#footer-part .footer-top {
+	padding: 0 45px;
+	padding-top: 80px;
+	padding-bottom: 60px;
+	background: #141414;
+}
+
+#footer-part .footer-top .list {
 	display: flex;
 }
 
-#footer-part .footer-top .list ul li{
+#footer-part .footer-top .list ul li {
 	margin-bottom: 25px;
 }
+
 #footer-part .footer-top .list ul li a {
 	display: inline-block;
 	font-family: Wavehaus;
@@ -664,14 +730,13 @@ nav .dropdown-menu .dropdown-item {
 	font-size: 18px;
 	line-height: 28px;
 	color: #FFFFFF;
-
-
 }
-#footer-part .footer-top .list .first-ul{
-	
+
+#footer-part .footer-top .list .first-ul {
 	margin-right: 100px;
 }
-#footer-part .footer-top .email a{
+
+#footer-part .footer-top .email a {
 	display: inline-block;
 	font-family: 'Wavehaus';
 	font-style: normal;
@@ -680,24 +745,29 @@ nav .dropdown-menu .dropdown-item {
 	font-size: 30px;
 	line-height: 28px;
 }
-#footer-part .footer-bottom{
-      background: #101010;
-	  padding-top: 20px;
-	  padding-bottom: 20px;
+
+#footer-part .footer-bottom {
+	background: #101010;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-#footer-part .footer-bottom .social ul{
+
+#footer-part .footer-bottom .social ul {
 	padding-left: 0;
 }
-#footer-part .footer-bottom .social ul li{
+
+#footer-part .footer-bottom .social ul li {
 	display: inline-block;
 }
-#footer-part .footer-bottom .social ul li a{
+
+#footer-part .footer-bottom .social ul li a {
 	display: inline-block;
 	font-size: 25px;
 	color: #FFFFFF;
 	margin-right: 35px;
 }
-#footer-part .footer-bottom .copyright span{
+
+#footer-part .footer-bottom .copyright span {
 	display: inline-block;
 	font-family: 'Poppins-Light';
 	font-style: normal;
@@ -708,7 +778,8 @@ nav .dropdown-menu .dropdown-item {
 	padding-top: 10px;
 	padding-left: 30px;
 }
-#footer-part .footer-bottom .privacy p{
+
+#footer-part .footer-bottom .privacy p {
 	font-family: Wavehaus;
 	font-style: normal;
 	font-weight: normal;
@@ -716,7 +787,8 @@ nav .dropdown-menu .dropdown-item {
 	line-height: 28px;
 	color: #FFFFFF;
 }
-#footer-part .footer-bottom .privacy p a{
+
+#footer-part .footer-bottom .privacy p a {
 	display: inline-block;
 	font-family: Wavehaus;
 	font-style: normal;
@@ -734,11 +806,4 @@ nav .dropdown-menu .dropdown-item {
               footer css end
   ==================================================*/
 
-
-
-
-
-
-
-
-  /*  */
+/* end */
